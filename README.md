@@ -59,3 +59,5 @@ Ovarian cancer is one of the leading causes of cancer-related deaths among women
 git clone https://github.com/yourusername/ovarian-tumor-classification.git
 cd ovarian-tumor-classification
 pip install -r requirements.txt
+
+<pre> ```bash python main.py --mode train ``` </pre>
