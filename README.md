@@ -16,6 +16,11 @@ Ovarian cancer is one of the leading causes of cancer-related deaths among women
 - Evaluate model performance using appropriate metrics.
 - Provide an explainable and robust model for real-world use.
 
+## Framework
+
+![Framework Diagram](images/images.png)
+
+
 ## 📁 Dataset
 
 > *Note: You can replace this section with actual dataset details.*
@@ -25,6 +30,8 @@ Ovarian cancer is one of the leading causes of cancer-related deaths among women
 - **Labels:** Each sample is labeled as `Benign`, `Borderline`, or `Malignant`.
 
 ## ⚙️ Project Structure
+
+
 
 
 
