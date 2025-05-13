@@ -60,6 +60,7 @@ git clone https://github.com/yourusername/ovarian-tumor-classification.git
 cd ovarian-tumor-classification
 pip install -r requirements.txt
 
+```
 ### Run
 ```bash
 python main.py --mode train
