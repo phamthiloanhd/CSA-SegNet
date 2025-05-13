@@ -1,4 +1,4 @@
-# Ovarian Tumor Classification
+# Ovarian Tumor Segmentation
 
 This repository contains code and documentation for a machine learning project focused on classifying different types of ovarian tumors from medical data (e.g., ultrasound images, clinical features, or combined modalities).
 
