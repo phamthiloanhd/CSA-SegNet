@@ -52,6 +52,9 @@ Automatic ovarian tumor segmentation in ultrasound imaging is essential for supp
 
 - Python 3.8+
 - pip
+- NVIDIA GeForce RTX 3060 12 GB RAM
+- CUDA 12.4
+- Ubuntu 20.04, tensorflow==2.6.0
 
 ### Installation
 
