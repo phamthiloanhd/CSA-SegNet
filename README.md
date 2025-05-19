@@ -1,4 +1,4 @@
-# Ovarian Tumor Segmentation
+# Ovarian Tumor Segmentation from Ultrasound Images with Spatial Pooling and Contour-based Loss Functions⋆
 
 This repository contains code and documentation for a machine learning project focused on segmentation ovarian tumors from ultrasound images (e.g., ultrasound images, clinical features, or combined modalities).
 
