@@ -16,8 +16,8 @@ Automatic ovarian tumor segmentation in ultrasound imaging is essential for supp
 ![Framework Diagram](images/images.png)
 
 
-## 📁 Dataset
-
+## 📁 Dataset OTU2D
+Link: https://drive.google.com/file/d/1SlTkOH70jBmd7Nbvx4DZaWeQtHk1PSH-/view?usp=sharing
 > *Note: You can replace this section with actual dataset details.*
 
 
