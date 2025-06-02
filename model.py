@@ -127,11 +127,11 @@ def build_CSA_attention_unet(input_shape):
     # s1 = SPPF_module(s1, k = 5)
     s2 = CSA.get_layer("block2_conv2").output
     # s2 = SPPF_module(s2, k = 5)
-    s3 = CSA.get_layer("block3_conv3").output
+    s3 = CSA.get_layer("block3_conv4").output
     # s3 = SPPF_module(s3, k = 5)
-    s4 = CSA.get_layer("block4_conv3").output
+    s4 = CSA.get_layer("block4_conv4").output
     # s4 = SPPF_module(s4, k = 5)
-    b1 = CSA.get_layer("block5_conv3").output
+    b1 = CSA.get_layer("block5_conv4").output
     b1 = SPPF_module(b1, k = 5)
 
   
