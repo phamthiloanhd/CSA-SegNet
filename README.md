@@ -8,8 +8,7 @@ Automatic ovarian tumor segmentation in ultrasound imaging is essential for supp
 
 ## 🎯 Objectives
 
-- Preprocess clinical or imaging data related to ovarian tumors.
-- 
+- CSA-SegNet model that is unique combination of the VGG19 encoder for efficient feature extraction, an SPPF block that preserves critical spatial details while capturing multi-scale contextual information, and a newly designed loss function LJACE that emphasizes texture, shape, and contour similarity. 
 
 ## Output
 
@@ -32,13 +31,11 @@ Link: https://drive.google.com/file/d/1SlTkOH70jBmd7Nbvx4DZaWeQtHk1PSH-/view?usp
 ## 🧠 Methodology
 
 1. **Data Preprocessing**
-   - Cleaning missing values
-   - Feature normalization/scaling
-   - Image preprocessing (if applicable)
+The captured images undergo pre-processing before annotation. This pre-processing step includes removing personal data and eliminating markers added by doctors during ultrasound imaging. We utilize available IOPaint tool for inpainting the images, ensur-ing a clean and standardized dataset for annotation. Then the doctors use LabelMe tool for tumor region annotation
 
 2. **Model Selection**
-   
-   - Advanced: Deep Learning (CNN for images)
+We implement the source code in Python and train the model on a computer equipped with an Intel Core i5-12400F CPU, 16GB DDR4 RAM, and an RTX 3060 GPU with 12GB VRAM. The implementation is supported by various
+libraries, including OpenCV, NumPy, TensorFlow, Keras, and scikit-learn. We train the ovarian tumor segmentation model using training ultrasound images for 100 epochs with a batch size = 8. The learning rate is set to 1e-4. All ultrasound images were only resized to a fixed resolution of 256 × 256 pixels and and normalized to the range [0, 1] using min–max normalization before being used for model training and evaluation.
 
 3. **Evaluation Metrics**
    - Accuracy
